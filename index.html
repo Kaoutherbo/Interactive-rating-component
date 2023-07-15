@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./style.css">
+  <title>Interactive rating component</title>
+
+  
+</head>
+<body>
+<main>
+    <!-- Rating state start -->
+  <section class="submit-card" id="submit-card">
+    <div class="star"><img src="./images/icon-star.svg" alt="icon-star"></div>
+    <h1>  How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="list">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+      </div>
+      <button class="btn" id="btn"> Submit</button>
+    </section>
+      <!-- Thank you state start -->
+  <section class="thanks-card" id="thanks-card">
+    <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
+    <div class="select">You selected <span id="span"></span> out of 5</div>
+    <h1> Thank you!</h1>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </section>
+</main>
+<!--script-->
+<script src="./app.js"></script>
+</body>
+</html>
